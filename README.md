@@ -1,6 +1,9 @@
 # RAG Chatbot with Go & ChromaDB 
 This is a chatbot designed to help USF students answer any course-registration related questions they have in natural language using RAG!
 
+<img width="940" alt="截屏2024-12-15 下午10 54 58_副本" src="https://github.com/user-attachments/assets/4a6cc9b8-9fd0-4f28-a1f6-e9f3c4a271b3" />
+
+
 ## YouTube Demo: 
 https://www.youtube.com/watch?v=juo-J2kKP6w
 
