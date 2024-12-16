@@ -18,7 +18,7 @@ e.g:
 - User enters "What courses does Jack Williams teach?" and sends the message to OpenAI
 - OpenAI receives our message related to course selection, and sends back a structured JSON output that includes fields like: "InstructorFullName: 'Jack Williams'"
 - Our program takes the fields highlighted by AI, and queries ChromaDB with those parameters ("InstructorFullName: 'Jack Williams'")
-- By vector similarity, our program finds courses taught by professor "Christopher Brooks" (because professor Chris Brooks does not exist but Christopher Brooks does), and returns the information related to those courses in a string back to the chatbot as a response to the chatbot's tool call, which completes the tool call process.
+- By vector similarity, our program finds courses taught by professor "Jackson Williams" (because professor Jack Williams does not exist but Jackson Williams does), and returns the information related to those courses in a string back to the chatbot as a response to the chatbot's tool call, which completes the tool call process.
 - After the chatbot receives a response from its tool call, it then filters through the information it is given to answer the user's original question of "What courses does Jack Williams teach?" e.g: "Foundations of AI"
 
 ## How is the ChromaDB vector database built?
